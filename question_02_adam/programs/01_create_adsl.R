@@ -7,7 +7,7 @@
 # Notes:
 
 # Install and load required packages
-# install.packages(c("admiral", "pharmaversesdtm", "dplyr", "lubridate", "stringr", "purrr", "styler", "writexl", "logrx"))
+# install.packages(c("admiral", "pharmaversesdtm", "dplyr", "lubridate", "stringr", "purrr", "styler", "writexl", "logrx", "logrxaddin"))
 
 library("admiral")
 library("dplyr", warn.conflicts = FALSE)
@@ -15,6 +15,9 @@ library("pharmaversesdtm")
 library("lubridate")
 library("stringr")
 library("purrr")
+library("logrx")
+library("logrxaddin")
+library("writexl")
 library("styler")
 
 # Read SDTM data
